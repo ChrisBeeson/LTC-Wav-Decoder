@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>DD88B5DA-509F-4B7E-BC6E-C70DC7677437</string>
+	<key>IDESourceControlProjectName</key>
+	<string>LTCRecorder</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C847727F2240A4243CEA04AB2B88F6656C1F4EF3</key>
+		<string>https://github.com/ChrisBeeson/LTC-Wav-Decoder.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>LTCRecorder.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C847727F2240A4243CEA04AB2B88F6656C1F4EF3</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ChrisBeeson/LTC-Wav-Decoder.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C847727F2240A4243CEA04AB2B88F6656C1F4EF3</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C847727F2240A4243CEA04AB2B88F6656C1F4EF3</string>
+			<key>IDESourceControlWCCName</key>
+			<string>LTCRecorder</string>
+		</dict>
+	</array>
+</dict>
+</plist>

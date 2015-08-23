@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* LTCRecorderAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {985, 608}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 503}";
+		};
+	};
+	1D3623250D0F684500981E51 /* LTCRecorderAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {985, 608}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 638}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* LTCRecorder */ = {
+		activeExec = 0;
+		executables = (
+			47FA74C2105D1481007BA0CC /* LTCRecorder */,
+		);
+	};
+	28D7ACF60DDB3853001CB0EB /* LTCRecorderViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1216, 611}}";
+			sepNavSelRange = "{182, 46}";
+			sepNavVisRange = "{0, 1060}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* LTCRecorderViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1216, 2691}}";
+			sepNavSelRange = "{229, 8}";
+			sepNavVisRange = "{0, 1068}";
+			sepNavWindowFrame = "{{716, 104}, {1142, 1074}}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 47FA74C2105D1481007BA0CC /* LTCRecorder */;
+		activeSDKPreference = iphoneos3.0;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* LTCRecorder */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* LTCRecorder */,
+		);
+		codeSenseManager = 47FA74C7105D14A0007BA0CC /* Code sense */;
+		executables = (
+			47FA74C2105D1481007BA0CC /* LTCRecorder */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXErrorsWarningsDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXErrorsWarningsDataSource_LocationID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					300,
+					355,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXErrorsWarningsDataSource_TypeID,
+					PBXErrorsWarningsDataSource_MessageID,
+					PBXErrorsWarningsDataSource_LocationID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					695,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					807,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					425,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 276204032;
+			PBXWorkspaceStateSaveDate = 276204032;
+		};
+		perUserProjectItems = {
+			4700E7721076C7720000EEA2 /* PBXTextBookmark */ = 4700E7721076C7720000EEA2 /* PBXTextBookmark */;
+			4700E7731076C7720000EEA2 /* PBXTextBookmark */ = 4700E7731076C7720000EEA2 /* PBXTextBookmark */;
+			4700E7741076C7720000EEA2 /* PBXTextBookmark */ = 4700E7741076C7720000EEA2 /* PBXTextBookmark */;
+			4700E7751076C7720000EEA2 /* PBXTextBookmark */ = 4700E7751076C7720000EEA2 /* PBXTextBookmark */;
+			4700E7761076C7720000EEA2 /* PBXTextBookmark */ = 4700E7761076C7720000EEA2 /* PBXTextBookmark */;
+			4700E7781076C7720000EEA2 /* PBXTextBookmark */ = 4700E7781076C7720000EEA2 /* PBXTextBookmark */;
+			4700E77A1076C7720000EEA2 /* PBXTextBookmark */ = 4700E77A1076C7720000EEA2 /* PBXTextBookmark */;
+			4700E77C1076C7720000EEA2 /* PBXTextBookmark */ = 4700E77C1076C7720000EEA2 /* PBXTextBookmark */;
+			4700E77D1076C7720000EEA2 /* PBXTextBookmark */ = 4700E77D1076C7720000EEA2 /* PBXTextBookmark */;
+			4700E77E1076C7720000EEA2 /* PBXTextBookmark */ = 4700E77E1076C7720000EEA2 /* PBXTextBookmark */;
+			4700E7801076C7720000EEA2 /* PBXTextBookmark */ = 4700E7801076C7720000EEA2 /* PBXTextBookmark */;
+			4700E7821076C7720000EEA2 /* PBXTextBookmark */ = 4700E7821076C7720000EEA2 /* PBXTextBookmark */;
+			4700E7831076C7720000EEA2 /* PBXTextBookmark */ = 4700E7831076C7720000EEA2 /* PBXTextBookmark */;
+			4700E7841076C7720000EEA2 /* PBXTextBookmark */ = 4700E7841076C7720000EEA2 /* PBXTextBookmark */;
+			4700E7851076C7720000EEA2 /* PBXTextBookmark */ = 4700E7851076C7720000EEA2 /* PBXTextBookmark */;
+			4700E7861076C7720000EEA2 /* PBXTextBookmark */ = 4700E7861076C7720000EEA2 /* PBXTextBookmark */;
+			4700E7871076C7720000EEA2 /* PBXTextBookmark */ = 4700E7871076C7720000EEA2 /* PBXTextBookmark */;
+			4700E7881076C7720000EEA2 /* PBXTextBookmark */ = 4700E7881076C7720000EEA2 /* PBXTextBookmark */;
+			4700E7891076C7720000EEA2 /* PBXTextBookmark */ = 4700E7891076C7720000EEA2 /* PBXTextBookmark */;
+			4700E78A1076C7720000EEA2 /* PBXTextBookmark */ = 4700E78A1076C7720000EEA2 /* PBXTextBookmark */;
+			4700E78B1076C7720000EEA2 /* XCBuildMessageTextBookmark */ = 4700E78B1076C7720000EEA2 /* XCBuildMessageTextBookmark */;
+			4700E78C1076C7720000EEA2 /* PBXTextBookmark */ = 4700E78C1076C7720000EEA2 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 47FA74C6105D14A0007BA0CC /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	4700E4CB10768A930000EEA2 /* LTCDecoder.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1216, 602}}";
+			sepNavSelRange = "{471, 0}";
+			sepNavVisRange = "{0, 824}";
+		};
+	};
+	4700E4CC10768A930000EEA2 /* LTCDecoder.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1216, 2236}}";
+			sepNavSelRange = "{1630, 0}";
+			sepNavVisRange = "{943, 1051}";
+			sepNavWindowFrame = "{{38, 78}, {1142, 1074}}";
+		};
+	};
+	4700E7721076C7720000EEA2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 47E55866107675AC008F7273 /* smpte.h */;
+		name = "smpte.h: 113";
+		rLen = 13;
+		rLoc = 2384;
+		rType = 0;
+		vrLen = 1407;
+		vrLoc = 2008;
+	};
+	4700E7731076C7720000EEA2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 47E55864107675AC008F7273 /* wav_functions.h */;
+		name = "wav_functions.h: 27";
+		rLen = 0;
+		rLoc = 501;
+		rType = 0;
+		vrLen = 509;
+		vrLoc = 0;
+	};
+	4700E7741076C7720000EEA2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* LTCRecorderAppDelegate.h */;
+		name = "LTCRecorderAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 503;
+		vrLoc = 0;
+	};
+	4700E7751076C7720000EEA2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* LTCRecorderAppDelegate.m */;
+		name = "LTCRecorderAppDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 638;
+		vrLoc = 0;
+	};
+	4700E7761076C7720000EEA2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4700E7771076C7720000EEA2 /* AudioDriverPlugIn.h */;
+		name = "AudioDriverPlugIn.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1896;
+		vrLoc = 0;
+	};
+	4700E7771076C7720000EEA2 /* AudioDriverPlugIn.h */ = {
+		isa = PBXFileReference;
+		name = AudioDriverPlugIn.h;
+		path = /System/Library/Frameworks/CoreAudio.framework/Headers/AudioDriverPlugIn.h;
+		sourceTree = "<absolute>";
+	};
+	4700E7781076C7720000EEA2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4700E7791076C7720000EEA2 /* AudioHardware.h */;
+		name = "AudioHardware.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2825;
+		vrLoc = 0;
+	};
+	4700E7791076C7720000EEA2 /* AudioHardware.h */ = {
+		isa = PBXFileReference;
+		name = AudioHardware.h;
+		path = /System/Library/Frameworks/CoreAudio.framework/Headers/AudioHardware.h;
+		sourceTree = "<absolute>";
+	};
+	4700E77A1076C7720000EEA2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4700E77B1076C7720000EEA2 /* HostTime.h */;
+		name = "HostTime.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1537;
+		vrLoc = 0;
+	};
+	4700E77B1076C7720000EEA2 /* HostTime.h */ = {
+		isa = PBXFileReference;
+		name = HostTime.h;
+		path = /System/Library/Frameworks/CoreAudio.framework/Headers/HostTime.h;
+		sourceTree = "<absolute>";
+	};
+	4700E77C1076C7720000EEA2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* LTCRecorderViewController.m */;
+		name = "LTCRecorderViewController.m: 13";
+		rLen = 8;
+		rLoc = 229;
+		rType = 0;
+		vrLen = 1068;
+		vrLoc = 0;
+	};
+	4700E77D1076C7720000EEA2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* LTCRecorderViewController.h */;
+		name = "LTCRecorderViewController.h: 11";
+		rLen = 46;
+		rLoc = 182;
+		rType = 0;
+		vrLen = 1060;
+		vrLoc = 0;
+	};
+	4700E77E1076C7720000EEA2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4700E77F1076C7720000EEA2 /* CoreAudio.h */;
+		name = "CoreAudio.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 843;
+		vrLoc = 0;
+	};
+	4700E77F1076C7720000EEA2 /* CoreAudio.h */ = {
+		isa = PBXFileReference;
+		name = CoreAudio.h;
+		path = /System/Library/Frameworks/CoreAudio.framework/Headers/CoreAudio.h;
+		sourceTree = "<absolute>";
+	};
+	4700E7801076C7720000EEA2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4700E7811076C7720000EEA2 /* CoreAudioTypes.h */;
+		name = "CoreAudioTypes.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1516;
+		vrLoc = 2015;
+	};
+	4700E7811076C7720000EEA2 /* CoreAudioTypes.h */ = {
+		isa = PBXFileReference;
+		name = CoreAudioTypes.h;
+		path = /System/Library/Frameworks/CoreAudio.framework/Headers/CoreAudioTypes.h;
+		sourceTree = "<absolute>";
+	};
+	4700E7821076C7720000EEA2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CD92B9111059D5A300925BE3 /* ltc_main.h */;
+		name = "ltc_main.h: 11";
+		rLen = 0;
+		rLoc = 221;
+		rType = 0;
+		vrLen = 232;
+		vrLoc = 0;
+	};
+	4700E7831076C7720000EEA2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CD92B9121059D5A300925BE3 /* ltc_main.m */;
+		name = "ltc_main.m: 63";
+		rLen = 0;
+		rLoc = 1299;
+		rType = 0;
+		vrLen = 1026;
+		vrLoc = 307;
+	};
+	4700E7841076C7720000EEA2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 47E55865107675AC008F7273 /* wav_functions.c */;
+		name = "wav_functions.c: 111";
+		rLen = 0;
+		rLoc = 3550;
+		rType = 0;
+		vrLen = 1163;
+		vrLoc = 2934;
+	};
+	4700E7851076C7720000EEA2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CD92B7051059BCB900925BE3 /* LTCScanner.h */;
+		name = "LTCScanner.h: 21";
+		rLen = 0;
+		rLoc = 533;
+		rType = 0;
+		vrLen = 1168;
+		vrLoc = 0;
+	};
+	4700E7861076C7720000EEA2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CD92B7061059BCB900925BE3 /* LTCScanner.m */;
+		name = "LTCScanner.m: 9";
+		rLen = 22;
+		rLoc = 142;
+		rType = 0;
+		vrLen = 785;
+		vrLoc = 0;
+	};
+	4700E7871076C7720000EEA2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CD92B5351059A34800925BE3 /* AVAudioRecorderUtil.m */;
+		name = "AVAudioRecorderUtil.m: 9";
+		rLen = 31;
+		rLoc = 151;
+		rType = 0;
+		vrLen = 709;
+		vrLoc = 0;
+	};
+	4700E7881076C7720000EEA2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CD92B5341059A34800925BE3 /* AVAudioRecorderUtil.h */;
+		name = "AVAudioRecorderUtil.h: 17";
+		rLen = 0;
+		rLoc = 382;
+		rType = 0;
+		vrLen = 981;
+		vrLoc = 0;
+	};
+	4700E7891076C7720000EEA2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4700E4CB10768A930000EEA2 /* LTCDecoder.h */;
+		name = "LTCDecoder.h: 26";
+		rLen = 0;
+		rLoc = 471;
+		rType = 0;
+		vrLen = 824;
+		vrLoc = 0;
+	};
+	4700E78A1076C7720000EEA2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4700E4CC10768A930000EEA2 /* LTCDecoder.m */;
+		name = "LTCDecoder.m: 79";
+		rLen = 0;
+		rLoc = 1630;
+		rType = 0;
+		vrLen = 1051;
+		vrLoc = 943;
+	};
+	4700E78B1076C7720000EEA2 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Compile /Users/chrisbeeson/Desktop/LTCRecorder/Classes/smpte.c";
+		fRef = 47E55867107675AC008F7273 /* smpte.c */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 0;
+		rLoc = 0;
+		rType = 1;
+	};
+	4700E78C1076C7720000EEA2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 47E55867107675AC008F7273 /* smpte.c */;
+		name = "smpte.c: 29";
+		rLen = 0;
+		rLoc = 1145;
+		rType = 0;
+		vrLen = 1738;
+		vrLoc = 0;
+	};
+	47E55864107675AC008F7273 /* wav_functions.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {985, 608}}";
+			sepNavSelRange = "{501, 0}";
+			sepNavVisRange = "{0, 509}";
+		};
+	};
+	47E55865107675AC008F7273 /* wav_functions.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1216, 1755}}";
+			sepNavSelRange = "{3550, 0}";
+			sepNavVisRange = "{2934, 1163}";
+			sepNavWindowFrame = "{{38, 78}, {1142, 1074}}";
+		};
+	};
+	47E55866107675AC008F7273 /* smpte.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {985, 1872}}";
+			sepNavSelRange = "{2384, 13}";
+			sepNavVisRange = "{2008, 1407}";
+		};
+	};
+	47E55867107675AC008F7273 /* smpte.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1216, 6643}}";
+			sepNavSelRange = "{1145, 0}";
+			sepNavVisRange = "{0, 1738}";
+		};
+	};
+	47FA74C2105D1481007BA0CC /* LTCRecorder */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = LTCRecorder;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	47FA74C6105D14A0007BA0CC /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	47FA74C7105D14A0007BA0CC /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	CD92B5341059A34800925BE3 /* AVAudioRecorderUtil.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1216, 602}}";
+			sepNavSelRange = "{382, 0}";
+			sepNavVisRange = "{0, 981}";
+		};
+	};
+	CD92B5351059A34800925BE3 /* AVAudioRecorderUtil.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1216, 2158}}";
+			sepNavSelRange = "{151, 31}";
+			sepNavVisRange = "{0, 709}";
+		};
+	};
+	CD92B7051059BCB900925BE3 /* LTCScanner.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1216, 741}}";
+			sepNavSelRange = "{533, 0}";
+			sepNavVisRange = "{0, 1168}";
+		};
+	};
+	CD92B7061059BCB900925BE3 /* LTCScanner.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1216, 4953}}";
+			sepNavSelRange = "{142, 22}";
+			sepNavVisRange = "{0, 785}";
+		};
+	};
+	CD92B9111059D5A300925BE3 /* ltc_main.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1216, 602}}";
+			sepNavSelRange = "{221, 0}";
+			sepNavVisRange = "{0, 232}";
+		};
+	};
+	CD92B9121059D5A300925BE3 /* ltc_main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1216, 871}}";
+			sepNavSelRange = "{1299, 0}";
+			sepNavVisRange = "{307, 1026}";
+			sepNavWindowFrame = "{{15, 99}, {1142, 1074}}";
+		};
+	};
+}

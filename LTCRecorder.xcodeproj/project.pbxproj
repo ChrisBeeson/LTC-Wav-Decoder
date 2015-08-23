@@ -1,0 +1,335 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* LTCRecorderAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* LTCRecorderAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* LTCRecorderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* LTCRecorderViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		4700E4CD10768A930000EEA2 /* LTCDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 4700E4CC10768A930000EEA2 /* LTCDecoder.m */; };
+		4700E4F2107695BD0000EEA2 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4700E4F1107695BD0000EEA2 /* CoreAudio.framework */; };
+		4750CF6B1B899A3500658D7E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4750CF6A1B899A3500658D7E /* Default-568h@2x.png */; };
+		47A97E831B89A91400B8FE44 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 47A97E821B89A91400B8FE44 /* .gitignore */; };
+		47E55869107675AC008F7273 /* wav_functions.c in Sources */ = {isa = PBXBuildFile; fileRef = 47E55865107675AC008F7273 /* wav_functions.c */; };
+		47E5586A107675AC008F7273 /* smpte.c in Sources */ = {isa = PBXBuildFile; fileRef = 47E55867107675AC008F7273 /* smpte.c */; };
+		CD92B5361059A34800925BE3 /* AVAudioRecorderUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = CD92B5351059A34800925BE3 /* AVAudioRecorderUtil.m */; };
+		CD92B5A91059A97A00925BE3 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD92B5A81059A97A00925BE3 /* AVFoundation.framework */; };
+		CD92B6AC1059B90500925BE3 /* ASrecording.wav in Resources */ = {isa = PBXBuildFile; fileRef = CD92B6AB1059B90500925BE3 /* ASrecording.wav */; };
+		CD92B7071059BCB900925BE3 /* LTCScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = CD92B7061059BCB900925BE3 /* LTCScanner.m */; };
+		CD92B70C1059BE1800925BE3 /* ASrecording.caf in Resources */ = {isa = PBXBuildFile; fileRef = CD92B70B1059BE1800925BE3 /* ASrecording.caf */; };
+		CD92B7961059C4A100925BE3 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD92B7951059C4A100925BE3 /* AudioToolbox.framework */; };
+		CD92B9181059D5A300925BE3 /* ltc_main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD92B9121059D5A300925BE3 /* ltc_main.m */; };
+		CDAC02E3105C6B5B00AD3925 /* ASrecording_8k.caf in Resources */ = {isa = PBXBuildFile; fileRef = CDAC02E2105C6B5B00AD3925 /* ASrecording_8k.caf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* LTCRecorderAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTCRecorderAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* LTCRecorderAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTCRecorderAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* LTCRecorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LTCRecorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* LTCRecorderViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = LTCRecorderViewController.xib; path = ../LTCRecorderViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* LTCRecorderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTCRecorderViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* LTCRecorderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTCRecorderViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* LTCRecorder_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTCRecorder_Prefix.pch; sourceTree = "<group>"; };
+		4700E4CB10768A930000EEA2 /* LTCDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTCDecoder.h; sourceTree = "<group>"; };
+		4700E4CC10768A930000EEA2 /* LTCDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTCDecoder.m; sourceTree = "<group>"; };
+		4700E4F1107695BD0000EEA2 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = /System/Library/Frameworks/CoreAudio.framework; sourceTree = "<absolute>"; };
+		4750CF6A1B899A3500658D7E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		47A97E821B89A91400B8FE44 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		47E55864107675AC008F7273 /* wav_functions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wav_functions.h; sourceTree = "<group>"; };
+		47E55865107675AC008F7273 /* wav_functions.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = wav_functions.c; sourceTree = "<group>"; };
+		47E55866107675AC008F7273 /* smpte.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = smpte.h; sourceTree = "<group>"; };
+		47E55867107675AC008F7273 /* smpte.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = smpte.c; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* LTCRecorder-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "LTCRecorder-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		CD92B5341059A34800925BE3 /* AVAudioRecorderUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVAudioRecorderUtil.h; sourceTree = "<group>"; };
+		CD92B5351059A34800925BE3 /* AVAudioRecorderUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVAudioRecorderUtil.m; sourceTree = "<group>"; };
+		CD92B5A81059A97A00925BE3 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		CD92B6AB1059B90500925BE3 /* ASrecording.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = ASrecording.wav; path = recordings/ASrecording.wav; sourceTree = "<group>"; };
+		CD92B7051059BCB900925BE3 /* LTCScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTCScanner.h; sourceTree = "<group>"; };
+		CD92B7061059BCB900925BE3 /* LTCScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTCScanner.m; sourceTree = "<group>"; };
+		CD92B70B1059BE1800925BE3 /* ASrecording.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = ASrecording.caf; path = recordings/ASrecording.caf; sourceTree = "<group>"; };
+		CD92B7951059C4A100925BE3 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		CD92B9111059D5A300925BE3 /* ltc_main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ltc_main.h; sourceTree = "<group>"; };
+		CD92B9121059D5A300925BE3 /* ltc_main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ltc_main.m; sourceTree = "<group>"; };
+		CDAC02E2105C6B5B00AD3925 /* ASrecording_8k.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = ASrecording_8k.caf; path = recordings/ASrecording_8k.caf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				CD92B5A91059A97A00925BE3 /* AVFoundation.framework in Frameworks */,
+				CD92B7961059C4A100925BE3 /* AudioToolbox.framework in Frameworks */,
+				4700E4F2107695BD0000EEA2 /* CoreAudio.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* LTCRecorderAppDelegate.h */,
+				1D3623250D0F684500981E51 /* LTCRecorderAppDelegate.m */,
+				28D7ACF60DDB3853001CB0EB /* LTCRecorderViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* LTCRecorderViewController.m */,
+				2899E5210DE3E06400AC0155 /* LTCRecorderViewController.xib */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* LTCRecorder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				47A97E821B89A91400B8FE44 /* .gitignore */,
+				47E55863107675AC008F7273 /* LTCDecoder */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* LTCRecorder_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4750CF6A1B899A3500658D7E /* Default-568h@2x.png */,
+				CD92B70B1059BE1800925BE3 /* ASrecording.caf */,
+				CDAC02E2105C6B5B00AD3925 /* ASrecording_8k.caf */,
+				CD92B6AB1059B90500925BE3 /* ASrecording.wav */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* LTCRecorder-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD92B7951059C4A100925BE3 /* AudioToolbox.framework */,
+				CD92B5A81059A97A00925BE3 /* AVFoundation.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				4700E4F1107695BD0000EEA2 /* CoreAudio.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		47E55863107675AC008F7273 /* LTCDecoder */ = {
+			isa = PBXGroup;
+			children = (
+				CD92B5341059A34800925BE3 /* AVAudioRecorderUtil.h */,
+				CD92B5351059A34800925BE3 /* AVAudioRecorderUtil.m */,
+				CD92B7051059BCB900925BE3 /* LTCScanner.h */,
+				CD92B7061059BCB900925BE3 /* LTCScanner.m */,
+				4700E4CB10768A930000EEA2 /* LTCDecoder.h */,
+				4700E4CC10768A930000EEA2 /* LTCDecoder.m */,
+				CD92B9111059D5A300925BE3 /* ltc_main.h */,
+				CD92B9121059D5A300925BE3 /* ltc_main.m */,
+				47E55864107675AC008F7273 /* wav_functions.h */,
+				47E55865107675AC008F7273 /* wav_functions.c */,
+				47E55866107675AC008F7273 /* smpte.h */,
+				47E55867107675AC008F7273 /* smpte.c */,
+			);
+			name = LTCDecoder;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* LTCRecorder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "LTCRecorder" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LTCRecorder;
+			productName = LTCRecorder;
+			productReference = 1D6058910D05DD3D006BFB54 /* LTCRecorder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "LTCRecorder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* LTCRecorder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				47A97E831B89A91400B8FE44 /* .gitignore in Resources */,
+				2899E5220DE3E06400AC0155 /* LTCRecorderViewController.xib in Resources */,
+				CD92B6AC1059B90500925BE3 /* ASrecording.wav in Resources */,
+				CD92B70C1059BE1800925BE3 /* ASrecording.caf in Resources */,
+				CDAC02E3105C6B5B00AD3925 /* ASrecording_8k.caf in Resources */,
+				4750CF6B1B899A3500658D7E /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* LTCRecorderAppDelegate.m in Sources */,
+				CD92B5361059A34800925BE3 /* AVAudioRecorderUtil.m in Sources */,
+				CD92B7071059BCB900925BE3 /* LTCScanner.m in Sources */,
+				CD92B9181059D5A300925BE3 /* ltc_main.m in Sources */,
+				47E55869107675AC008F7273 /* wav_functions.c in Sources */,
+				47E5586A107675AC008F7273 /* smpte.c in Sources */,
+				4700E4CD10768A930000EEA2 /* LTCDecoder.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = LTCRecorder_Prefix.pch;
+				INFOPLIST_FILE = "LTCRecorder-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = LTCRecorder;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = LTCRecorder_Prefix.pch;
+				INFOPLIST_FILE = "LTCRecorder-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = LTCRecorder;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Chris Beeson";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "D35513F0-5CFD-4084-8BC2-80C670563985";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "LTCRecorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "LTCRecorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
